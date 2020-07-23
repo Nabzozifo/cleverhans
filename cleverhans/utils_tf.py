@@ -13,7 +13,8 @@ import warnings
 import numpy as np
 import six
 from six.moves import xrange
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from cleverhans.compat import device_lib
 from cleverhans.compat import reduce_sum, reduce_mean
